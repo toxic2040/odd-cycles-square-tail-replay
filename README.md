@@ -1,6 +1,6 @@
 # Odd cycles, sech spectra, and a square-tail inequality
 
-This is the exact-arithmetic replay accompanying J. Councilman's manuscript
+This is the exact-arithmetic replay accompanying the manuscript
 *Odd cycles, sech spectra, and a square-tail inequality*.
 Archived at doi:10.5281/zenodo.21853982.
 
