@@ -43,14 +43,28 @@ The factor 2 is retained as the structural theorem. Its proof is the one that
 carries the ideas, and the slack it leaves is uniform and explicit: `rho >= 1`
 has strict margin `1.4576%` everywhere except at `(129,2)`.
 
-## What is still open
+## The downstream shift-wall constant is also determined
 
-**The shift-wall constant.** `C*` propagates through the shift-wall bridge:
-the published `(2r)^2 L(G)_q >= 2 L(C)_q` holds with `C*` in place of 2 on
-`0 <= q <= r-2`, by the same induction with the rescaled radical, and no new
-certificate is needed. `C*` is *not* sharp there. The bridge's own extremal
-cell is not the image of `(129,2)`, and its exact optimal constant is unknown.
-Determining it is a separate extremal problem.
+The companion paper *The sharp constant in the shift-wall bridge for odd-cycle
+polynomials* proves
+
+```text
+Omega_t(r) >= Omega_2(1350)  for all integers r>=t>=2,
+```
+
+with equality only at `(r,t)=(1350,2)`. Its sharp raw bridge factor is
+
+```text
+2 Omega_2(1350) = 2.655018313913361199726406175676...
+```
+
+That downstream theorem is archived at
+[doi:10.5281/zenodo.21866366](https://doi.org/10.5281/zenodo.21866366), with
+the public replay in
+[`shift-wall-sharp-factor`](https://github.com/toxic2040/shift-wall-sharp-factor).
+It does not alter the square-tail theorem or its sharp uniform constant above.
+
+## What is still open
 
 **Shape of the column minima away from the core.** Each fixed column `t` has an
 interior minimum in `r`, and on the certified core `4 <= r <= 503` the 500
@@ -58,6 +72,12 @@ column minima increase strictly in `t`. Whether that monotonicity persists for
 every `t` is not proved. Ordinary floating-point exploration suggests the
 argmins grow geometrically, but nothing here bounds its error, and no such scan
 is offered as evidence.
+
+**Reflected zero mode and terminal positivity.** A structural sequel is tracked
+in [issue #1](https://github.com/toxic2040/odd-cycles-square-tail-replay/issues/1).
+It keeps the exact finite-dimensional Gram and Green identities separate from
+the open all-order positivity transport. None of those follow-up claims is part
+of the v0.1.0 replay.
 
 **Formalization.** Formalizing the manuscript in Lean is unfinished. That is an
 implementation frontier rather than an uncertainty in the theorem proved here.

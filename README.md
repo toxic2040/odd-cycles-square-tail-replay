@@ -2,7 +2,7 @@
 
 This is the exact-arithmetic replay accompanying the manuscript
 *Odd cycles, sech spectra, and a square-tail inequality*.
-Archived at doi:10.5281/zenodo.21853982.
+Archived at [doi:10.5281/zenodo.21853982](https://doi.org/10.5281/zenodo.21853982).
 
 For the odd-cycle probability polynomial
 
@@ -117,9 +117,10 @@ certificate, and its only permitted fallback is the equality at `(129,2)`.
 
 ## Citation
 
-J. Councilman, *Odd cycles, sech spectra, and a square-tail inequality*, draft,
-2026. Machine-readable metadata is in `CITATION.cff`. A DOI will be added only
-after the release record exists.
+J. Councilman, *Odd cycles, sech spectra, and a square-tail inequality*,
+version 0.1.0, 2026.
+[doi:10.5281/zenodo.21853982](https://doi.org/10.5281/zenodo.21853982).
+Machine-readable metadata is in `CITATION.cff`.
 
 ## License
 
