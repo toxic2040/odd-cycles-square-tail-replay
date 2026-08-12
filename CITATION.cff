@@ -7,6 +7,9 @@ authors:
     given-names: J.
     orcid: "https://orcid.org/0009-0003-6265-5168"
 version: "0.1.0"
+date-released: "2026-08-08"
+repository-code: "https://github.com/toxic2040/odd-cycles-square-tail-replay"
+url: "https://doi.org/10.5281/zenodo.21853982"
 license: MIT
 identifiers:
   - type: doi
@@ -19,3 +22,5 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0003-6265-5168"
   title: "Odd cycles, sech spectra, and a square-tail inequality"
   year: 2026
+  doi: 10.5281/zenodo.21853982
+  notes: "The manuscript, documentation, and certificate records are CC BY 4.0; the verification code in this tree is MIT."
