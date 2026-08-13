@@ -40,8 +40,9 @@ minimum by `1.5878e-6`. The replayed chain is `global_infimum_tails.json`,
 `core_uniqueness.json`, `dyadic_screen.json` and `global_infimum_join.json`.
 
 The factor 2 is retained as the structural theorem. Its proof is the one that
-carries the ideas, and the slack it leaves is uniform and explicit: `rho >= 1`
-has strict margin `1.4576%` everywhere except at `(129,2)`.
+carries the ideas, and the slack it leaves is uniform and explicit:
+`rho - 1 >= rho(129,2) - 1 = 0.014576164564870742...`, with equality only at
+`(129,2)`.
 
 ## The downstream shift-wall constant is also determined
 

@@ -79,7 +79,8 @@ VERIFICATION_FILES = {
 # The sharp-constant strengthening.  Theorem A (rho>=1, the factor 2) is proved
 # by the seven fixed tails above and is left untouched.  Theorem B (rho >=
 # rho(129,2), attained only at (129,2)) is proved by the components below and
-# implies Theorem A; both are replayed independently.
+# implies Theorem A. The chains are separately gated but share definitions,
+# analytic machinery, and the finite core; they are not independent implementations.
 SHARP_RESULT_FILES = {
     "global_infimum_tails.json",
     "global_infimum_reduction.json",

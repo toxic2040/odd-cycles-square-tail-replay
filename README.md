@@ -33,8 +33,10 @@ C* = 2 rho(129,2) = 2.029152329129741484...,
 d_(r,t)^2 >= (C*/r^2) S_(r,t)V_(r,t),
 ```
 
-with equality only at `(r,t)=(129,2)`. The second statement implies the first;
-both are proved by separate certificate chains and replayed independently.
+with equality only at `(r,t)=(129,2)`. The second statement implies the first.
+The two use separately gated certificate chains, but share definitions,
+analytic machinery, and the finite core; they are not fully independent
+implementations.
 
 It also proves `d_(r,t)>0` on this range. The lower boundary is exact:
 `(r,t)=(2,1)` fails. The two upper cells are elementary:

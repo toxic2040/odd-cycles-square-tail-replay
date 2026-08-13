@@ -175,11 +175,16 @@ than $C_\star$ is admissible.
 \end{theorem}
 
 Theorem~\ref{thm:sharp} implies Theorem~\ref{thm:sq}, since
-$C_\star>2$. The two are proved by separate certificate chains and are
-replayed independently; Theorem~\ref{thm:sq} is retained because its proof is
-the structural one, and because the slack it leaves is uniform and explicit:
-$\rho\ge1$ has strict margin $1.4576\%$ everywhere except at $(129,2)$, where
-it is attained.
+$C_\star>2$. The two use separately gated certificate chains, but share
+definitions, analytic machinery, and the finite core; they are not claimed as
+fully independent implementations. Theorem~\ref{thm:sq} is retained because
+its proof is the structural one, and because the slack it leaves is uniform
+and explicit:
+\[
+  \rho(r,t)-1\ge \rho(129,2)-1
+  =0.014576164564870742\ldots,
+\]
+with equality only at $(129,2)$.
 
 \subsection{What the factor \texorpdfstring{$2$}{2} costs}
 
