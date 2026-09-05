@@ -117,9 +117,9 @@ certificate, and its only permitted fallback is the equality at `(129,2)`.
 
 ## Citation
 
-J. Councilman, *Odd cycles, sech spectra, and a square-tail inequality*, draft,
-2026. Machine-readable metadata is in `CITATION.cff`. A DOI will be added only
-after the release record exists.
+J. Councilman, *Odd cycles, sech spectra, and a square-tail inequality*,
+2026. Archived at [doi:10.5281/zenodo.21853982](https://doi.org/10.5281/zenodo.21853982).
+Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
 ## License
 
