@@ -124,6 +124,12 @@ version 0.1.0, 2026.
 [doi:10.5281/zenodo.21853982](https://doi.org/10.5281/zenodo.21853982).
 Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
+The other records in the same four-paper program:
+
+- *Strict total positivity of a real Delannoy multiplication table: the sharp half-line threshold*, [doi:10.5281/zenodo.21778524](https://doi.org/10.5281/zenodo.21778524)
+- *green-path-dpp: Exact rational determinantal algorithms for grounded paths*, [doi:10.5281/zenodo.21778518](https://doi.org/10.5281/zenodo.21778518)
+- *The sharp constant in the shift-wall bridge for odd-cycle polynomials*, [doi:10.5281/zenodo.21866366](https://doi.org/10.5281/zenodo.21866366)
+
 ## License
 
 Verification code is MIT licensed. The manuscript, documentation, and
